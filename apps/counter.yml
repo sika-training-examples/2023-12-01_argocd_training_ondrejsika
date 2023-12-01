@@ -22,4 +22,4 @@ spec:
     helm:
       releaseName: counter
       valuesObject:
-        host: counter.k8s.sikademo.com
+        host: counter333.k8s.sikademo.com
