@@ -9,6 +9,7 @@ metadata:
     argocd-image-updater.argoproj.io/1.update-strategy: digest
     argocd-image-updater.argoproj.io/1.force-update: 'true'
     argocd-image-updater.argoproj.io/1.platforms: linux/amd64
+    argocd-image-updater.argoproj.io/1.pull-secret: pullsecret:image-updater-private/image-updater-private-docker
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
