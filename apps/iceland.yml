@@ -23,4 +23,4 @@ spec:
       releaseName: iceland
       valuesObject:
         host: iceland.k8s.sikademo.com
-        image: ondrejsika/iceland-1
+        image: ondrejsika/iceland-3
