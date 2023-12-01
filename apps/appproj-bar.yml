@@ -12,10 +12,10 @@ spec:
     server: '*'
   sourceRepos:
   - '*'
-  syncWindows:
-  - applications:
-    - '*'
-    duration: 10m
-    kind: allow
-    schedule: 0 * * * *
-    timeZone: UTC
+  # syncWindows:
+  # - applications:
+  #   - '*'
+  #   duration: 10m
+  #   kind: allow
+  #   schedule: 0 * * * *
+  #   timeZone: UTC
