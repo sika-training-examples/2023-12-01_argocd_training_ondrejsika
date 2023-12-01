@@ -11,7 +11,7 @@ spec:
         - example.k8s.sikademo.com
       secretName: webservers-tls
   rules:
-    - host: example.aks.sikademo.com
+    - host: example.k8s.sikademo.com
       http:
         paths:
           - path: /
