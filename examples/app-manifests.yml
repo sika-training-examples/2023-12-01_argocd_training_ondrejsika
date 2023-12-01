@@ -9,9 +9,9 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   syncPolicy:
-    automated: {}
-      # prune: true
-      # selfHeal: true
+    automated:
+      prune: true
+      selfHeal: true
   source:
     path: examples/manifests
     repoURL: https://gitlab.sikademo.com/example/os.git
