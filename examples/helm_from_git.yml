@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   destination:
-    namespace: examples
+    namespace: default
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:
@@ -18,9 +18,8 @@ spec:
       - CreateNamespace=true
   source:
     repoURL: https://github.com/sikalabs/charts.git
-    targetRevision: HEAD
-    path: charts/hello-world
-    helm:
-      releaseName: helm-from-git
-      values: |
-        replicas: 3
+    path: charts/one-image
+    # helm:
+    #   releaseName: one-image
+    #   values: |
+    #     replicas: 3
