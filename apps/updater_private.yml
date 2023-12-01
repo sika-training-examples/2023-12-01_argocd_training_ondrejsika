@@ -23,7 +23,7 @@ spec:
     helm:
       releaseName: image-updater-private
       values: |
-        host: image-updater-public.k8s.sikademo.com
+        host: image-updater-private.k8s.sikademo.com
         image: registry.sikademo.com/example/docker/priv
         dockerRegistry: registry.sikademo.com
         dockerRegistryAuth: b25kcmVqc2lrYTphc2RmYXNkZg==
