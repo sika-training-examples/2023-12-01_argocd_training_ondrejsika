@@ -1,4 +1,4 @@
-IMAGE = ttl.sh/ondrej
+IMAGE = registry.sikademo.com/example/docker/priv
 IMAGE_PRIVATE = registry.sikalabs.com/registry/argocd-training-private/image-updater-example
 
 build-and-push:
