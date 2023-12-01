@@ -8,7 +8,7 @@ spec:
   - group: '*'
     kind: '*'
   destinations:
-  - namespace: '*'
+  - namespace: 'default'
     server: '*'
   sourceRepos:
-  - '*'
+  - 'https://gitlab.sikademo.com/*'
