@@ -25,6 +25,8 @@ spec:
       values: |
         host: image-updater-public.k8s.sikademo.com
         image: registry.sikademo.com/example/docker/priv
+        dockerRegistry: registry.sikademo.com
+        dockerRegistryAuth: b25kcmVqc2lrYTphc2RmYXNkZg==
   syncPolicy:
     automated:
       prune: true
