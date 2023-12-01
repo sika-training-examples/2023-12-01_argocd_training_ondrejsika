@@ -3,12 +3,12 @@ kind: Application
 metadata:
   name: image-updater-public
   namespace: argocd
-  # annotations:
-  #   argocd-image-updater.argoproj.io/image-list: 1=reg.istry.cz/image-updater-example:latest
-  #   argocd-image-updater.argoproj.io/1.helm.image-spec: image
-  #   argocd-image-updater.argoproj.io/1.update-strategy: digest
-  #   argocd-image-updater.argoproj.io/1.force-update: 'true'
-  #   argocd-image-updater.argoproj.io/1.platforms: linux/amd64
+  annotations:
+    argocd-image-updater.argoproj.io/image-list: 1=reg.istry.cz/image-updater-example:latest
+    argocd-image-updater.argoproj.io/1.helm.image-spec: image
+    argocd-image-updater.argoproj.io/1.update-strategy: digest
+    argocd-image-updater.argoproj.io/1.force-update: 'true'
+    argocd-image-updater.argoproj.io/1.platforms: linux/amd64
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
