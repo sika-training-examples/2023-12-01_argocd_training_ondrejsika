@@ -9,7 +9,7 @@ spec:
   project: default
   destination:
     namespace: default
-    server: k8s1
+    server: https://24ea97b4-cd3a-4333-b48e-707b5b3dece0.k8s.ondigitalocean.com
   syncPolicy:
     automated:
       prune: true
