@@ -24,4 +24,4 @@ spec:
       values: |
         host: one-image.k8s.sikademo.com
         image: ondrejsika/iceland-2
-        replicas: 3
+        replicas: 1
