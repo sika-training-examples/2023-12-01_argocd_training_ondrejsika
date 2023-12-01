@@ -8,7 +8,7 @@ metadata:
 spec:
   project: foo
   destination:
-    namespace: counter
+    namespace: default
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:
